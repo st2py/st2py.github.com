@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Network Security Experts]]></subtitle>
   <link href="/en/atom.xml" rel="self"/>
   <link href="http://blog.st2py.com/"/>
-  <updated>2015-11-24T04:54:37.425Z</updated>
+  <updated>2015-11-24T05:47:50.389Z</updated>
   <id>http://blog.st2py.com/</id>
   
   <author>
@@ -16,10 +16,10 @@
   
   <entry>
     <title><![CDATA[Welcome to St2Py]]></title>
-    <link href="http://blog.st2py.com/2015/11/24/welcome-to-st2py/"/>
-    <id>http://blog.st2py.com/2015/11/24/welcome-to-st2py/</id>
-    <published>2015-11-24T04:54:37.425Z</published>
-    <updated>2015-11-24T04:54:37.425Z</updated>
+    <link href="http://blog.st2py.com/2015/11/11/welcome-to-st2py/"/>
+    <id>http://blog.st2py.com/2015/11/11/welcome-to-st2py/</id>
+    <published>2015-11-10T16:00:00.000Z</published>
+    <updated>2015-11-24T05:47:50.389Z</updated>
     <content type="html"><![CDATA[<p>Welcome to St2Py! St2Py is a team that focus on Network Security. Now, we have two main projects, <a href="http://blog.st2py.com/en/bitcrypt/"><strong>BitCrypt</strong></a> and <a href="http://blog.st2py.com/en/secproxy/"><strong>SecProxy</strong></a>.</p>
 <h2 id="BitCrypt_Project">BitCrypt Project</h2><p><strong>BitCrypt</strong> is an open source army level file encryption/decryption software. It’s easy to install and use, supports <strong>Linux</strong>, <strong>Windows</strong>, <strong>OSX</strong>, <strong>FreeBSD</strong> four main operating systems. Welcom everyone to use it, and give us advise.</p>
 <h2 id="SecProxy_Project">SecProxy Project</h2><p><strong>SecProxy</strong> is an open source secure proxy software to ensure network communication security. It also uses the army level encryption technologies. Welcom everyone to use it, and give us advise.</p>

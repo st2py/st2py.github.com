@@ -4,7 +4,7 @@
   <subtitle><![CDATA[网络安全专家]]></subtitle>
   <link href="/cn/atom.xml" rel="self"/>
   <link href="http://blog.st2py.com/"/>
-  <updated>2015-11-24T05:09:18.345Z</updated>
+  <updated>2015-11-24T05:47:35.821Z</updated>
   <id>http://blog.st2py.com/</id>
   
   <author>
@@ -16,10 +16,10 @@
   
   <entry>
     <title><![CDATA[欢迎访问 St2Py]]></title>
-    <link href="http://blog.st2py.com/2015/11/24/welcome-to-st2py/"/>
-    <id>http://blog.st2py.com/2015/11/24/welcome-to-st2py/</id>
-    <published>2015-11-24T05:09:18.345Z</published>
-    <updated>2015-11-24T05:09:18.345Z</updated>
+    <link href="http://blog.st2py.com/2015/11/11/welcome-to-st2py/"/>
+    <id>http://blog.st2py.com/2015/11/11/welcome-to-st2py/</id>
+    <published>2015-11-10T16:00:00.000Z</published>
+    <updated>2015-11-24T05:47:35.821Z</updated>
     <content type="html"><![CDATA[<p>欢迎访问<strong>St2Py</strong>！<strong>St2Py</strong>是专注于网络安全方面的软件开发小组。当前，我们有两个主要项目： <a href="http://blog.st2py.com/cn/bitcrypt/"><strong>BitCrypt</strong></a> and <a href="http://blog.st2py.com/cn/secproxy/"><strong>SecProxy</strong></a>.</p>
 <h2 id="BitCrypt_项目">BitCrypt 项目</h2><p><strong>BitCrypt</strong> 是一款开源的军事级别的文件加解密软件。它易用安装和使用，支持 <strong>Linux</strong>， <strong>Windows</strong>， <strong>OSX</strong>， <strong>FreeBSD</strong> 四大主流操作系统。欢迎大家使用，提出建议。</p>
 <h2 id="SecProxy_项目">SecProxy 项目</h2><p><strong>SecProxy</strong> 是一款开源的安全代理软件，用于确保网络通信安全。它也使用了军事级别的加解密技术。欢迎大家使用，提出建议。</p>
