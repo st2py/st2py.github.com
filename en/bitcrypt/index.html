@@ -1,0 +1,354 @@
+
+  
+    <!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>BitCrypt Project | St2Py</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="St2Py">
+    
+
+    
+    <meta name="description" content="BitCrypt is an open source file encryption/decryption software, it has the following features:
+
+Released under The MIT License, fully open source and completely free
+Developed by Golang, safe, efficie">
+<meta property="og:type" content="website">
+<meta property="og:title" content="BitCrypt Project">
+<meta property="og:url" content="http://blog.st2py.com/bitcrypt/index.html">
+<meta property="og:site_name" content="St2Py">
+<meta property="og:description" content="BitCrypt is an open source file encryption/decryption software, it has the following features:
+
+Released under The MIT License, fully open source and completely free
+Developed by Golang, safe, efficie">
+<meta property="og:updated_time" content="2015-11-24T04:43:12.149Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="BitCrypt Project">
+<meta name="twitter:description" content="BitCrypt is an open source file encryption/decryption software, it has the following features:
+
+Released under The MIT License, fully open source and completely free
+Developed by Golang, safe, efficie">
+
+    
+    <link rel="alternative" href="/atom.xml" title="St2Py" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/en/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/en/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/en/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="/en/css/style.css" type="text/css">
+</head>
+
+      <body>
+        <header>
+          
+<div>
+		
+			<div id="imglogo">
+				<a href="/en/"><img src="/en/img/logo.png" alt="St2Py" title="St2Py"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/en/" title="St2Py">St2Py</a></h1>
+				<h2 class="blog-motto">Network Security Experts</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="Menu">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/en/">Home</a></li>
+					
+						<li><a href="/en/bitcrypt">BitCrypt</a></li>
+					
+						<li><a href="/en/secproxy">SecProxy</a></li>
+					
+						<li><a href="/en/donation">Donation</a></li>
+					
+						<li><a href="/en/../cn">中文站点</a></li>
+					
+                    <!--
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="Search" />
+						<input type="hidden" name="q" value="site:blog.st2py.com">
+					</form>
+					
+					</li>
+                    -->
+				</ul>
+			</nav>			
+</div>
+        </header>
+        <div id="container">
+          <div id="main" class="page" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/en/bitcrypt/index.html" title="BitCrypt Project" itemprop="url">BitCrypt Project</a>
+  </h1>
+  <p class="article-author">
+       
+			&nbsp;
+		
+  <p class="article-time">
+    <time datetime="2015-11-18T16:00:00.000Z" itemprop="datePublished"> Published 2015-11-19</time>
+  </p>
+</header>
+
+	<div class="article-content">
+		
+		<p><strong>BitCrypt</strong> is an open source file encryption/decryption software, it has the following features:</p>
+<ul>
+<li>Released under The <strong>MIT</strong> License, fully open source and completely free</li>
+<li>Developed by <strong>Golang</strong>, safe, efficient, easy to deploy</li>
+<li>Support <strong>Linux</strong>, <strong>Windows</strong>, <strong>OSX</strong>, <strong>FreeBSD</strong> four main operating systems</li>
+<li>Using <strong>RSA</strong> + <strong>AES</strong> ciphers,  <strong>the army level</strong> file encryption technologies</li>
+<li>Support <strong>RSA</strong> 1024, 2048, 4096 key length</li>
+<li>Support <strong>AES</strong> 128, 192, 256 key length</li>
+<li>Support <strong>CFB</strong>, <strong>CTR</strong>, <strong>OFB</strong> iteration mode</li>
+<li><strong>Public key</strong> used for encryption, it can be shared with others</li>
+<li><strong>Private key</strong> used for decryption, it can decrypt the shared encrypted files</li>
+<li>Encryption/decryption process can be separated, facilitate <strong>authority management</strong></li>
+</ul>
+<h2 id="How_to_install">How to install</h2><p><strong>BitCrypt</strong> is developed by golang,make sure golang is installed before install BitCrypt. Details refer to <a href="https://golang.org/doc/install" target="_blank" rel="external">Install the Go tools</a></p>
+<h3 id="Local_install">Local install</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">go get github.com/st2py/go-bit-crypt</span><br></pre></td></tr></table></figure>
+<h3 id="Cross-platform_compiling">Cross-platform compiling</h3><p>The Golang has powerful cross-platform compiling ability:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> github.com/st2py/go-bit-crypt</span><br><span class="line"></span><br><span class="line"><span class="built_in">cd</span> go-bit-crypt</span><br><span class="line"></span><br><span class="line"><span class="comment"># Linux 32bits #</span></span><br><span class="line">GOOS=linux GOARCH=<span class="number">386</span> go build bitcrypt.go</span><br><span class="line"></span><br><span class="line"><span class="comment"># Linux 64bits #</span></span><br><span class="line">GOOS=linux GOARCH=amd64 go build bitcrypt.go</span><br><span class="line"></span><br><span class="line"><span class="comment"># ARM Linux #</span></span><br><span class="line">GOOS=linux GOARCH=arm go build bitcrypt.go</span><br><span class="line"></span><br><span class="line"><span class="comment"># OSX 32bits #</span></span><br><span class="line">GOOS=darwin GOARCH=<span class="number">386</span> go build bitcrypt.go</span><br><span class="line"></span><br><span class="line"><span class="comment"># OSX 64bits #</span></span><br><span class="line">GOOS=darwin GOARCH=amd64 go build bitcrypt.go</span><br><span class="line"></span><br><span class="line"><span class="comment"># FreeBSD 32bits #</span></span><br><span class="line">GOOS=freebsd GOARCH=<span class="number">386</span> go build bitcrypt.go</span><br><span class="line"></span><br><span class="line"><span class="comment"># FreeBSD 64bits #</span></span><br><span class="line">GOOS=freebsd GOARCH=amd64 go build bitcrypt.go</span><br><span class="line"></span><br><span class="line"><span class="comment"># Windows 32bits #</span></span><br><span class="line">GOOS=windows GOARCH=<span class="number">386</span> go build bitcrypt.go</span><br><span class="line"></span><br><span class="line"><span class="comment"># Windows 64bits #</span></span><br><span class="line">GOOS=windows GOARCH=amd64 go build bitcrypt.go</span><br></pre></td></tr></table></figure></p>
+<h2 id="Simple_tutorial">Simple tutorial</h2><h3 id="Command_help">Command help</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bitcrypt -h</span><br></pre></td></tr></table></figure>
+<h3 id="Generate_RSA_key_pair">Generate RSA key pair</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># -g gen RSA key, -b key length, only valid for 1024, 2048, 4096 #</span></span><br><span class="line">bitcrypt -g -b <span class="number">2048</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># -p custom directory for RSA key files #</span></span><br><span class="line">bitcrypt -g -b <span class="number">2048</span> -p some/directory</span><br></pre></td></tr></table></figure>
+<p><strong>BitCrypt</strong> will generate public.pem and private.pem files. Public key is in public.pem file, private key is in private.pem file.<br><strong>Note: Please backup the key files carefully, the encrypted files cannot be decrypted if the key files are lost!</strong></p>
+<h3 id="Encrypt_file">Encrypt file</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># -e encryption, -f file or directory #</span></span><br><span class="line">bitcrypt <span class="operator">-e</span> <span class="operator">-f</span> some/file</span><br><span class="line"></span><br><span class="line"><span class="comment"># -k public key file #</span></span><br><span class="line">bitcrypt <span class="operator">-e</span> <span class="operator">-f</span> some/file -k some/directory/public.pem</span><br><span class="line"></span><br><span class="line"><span class="comment"># -l AES key length, only valid for 16, 24, 32 #</span></span><br><span class="line">bitcrypt <span class="operator">-e</span> <span class="operator">-f</span> some/file <span class="operator">-l</span> <span class="number">24</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># -t AES iteration mode, only valid for cfb, ctr, ofb #</span></span><br><span class="line">bitcrypt <span class="operator">-e</span> <span class="operator">-f</span> some/file <span class="operator">-l</span> <span class="number">32</span> -t ofb</span><br></pre></td></tr></table></figure>
+<h3 id="Decrypt_file">Decrypt file</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># -d decryption, -f file or directory #</span></span><br><span class="line">bitcrypt <span class="operator">-d</span> <span class="operator">-f</span> some/file</span><br><span class="line"></span><br><span class="line"><span class="comment"># -k private key file #</span></span><br><span class="line">bitcrypt <span class="operator">-d</span> <span class="operator">-f</span> some/file -k some/directory/private.pem</span><br></pre></td></tr></table></figure>
+<h2 id="How_it_works">How it works</h2><p>The simplified <strong>BitCrypt</strong> encryption process is as follows:</p>
+<ul>
+<li>Generate random AES key and AES initial vector</li>
+<li>Encrypt key and iv by using RSA, write to encryption file</li>
+<li>Encrypt file by using AES, write to encryption file</li>
+</ul>
+<p>In general, BitCrypt using AES to encrypt files, and using RSA to encrypt AES key and initial vector.</p>
+<p>The simplified <strong>BitCrypt</strong> decryption process is as follows:</p>
+<ul>
+<li>Read encryption AES key and iv from encryption file</li>
+<li>Decrypt key and iv by using RSA, obtain AES key and iv</li>
+<li>Decrypt file by using AES, write to decryption file</li>
+</ul>
+<p>Of coure, file hash will be calculated after decryption process. It can check if the decryption file is broken.</p>
+<h2 id="Donation">Donation</h2><p>Your support is the power for developing the software better and better. For donation details, please refer to <a href="http://blog.st2py.com/en/donation/">Donation Page</a>.</p>
+<h2 id="Project_License">Project License</h2><p>The MIT License (MIT)<br>Copyright (c) 2015 St2Py</p>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://blog.st2py.com/bitcrypt/index.html" data-title="BitCrypt Project | St2Py" data-tsina="null" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+	
+
+</div>  
+        </div>
+        <footer><div id="footer" >
+		
+		
+		<p class="copyright">
+		Powered by St2Py &copy; 2015 
+		<a href="/en/donation" target="_blank">Contact US</a>		
+		</p>
+        
+        
+		<div class="cc-license">
+          <a href="http://creativecommons.org/licenses/by-nc-nd/4.0" class="cc-opacity" target="_blank">
+            <img src="/en/img/cc-by-nc-nd.svg" alt="Creative Commons" />
+          </a>
+        </div>
+    
+</div>
+</footer>
+        <script src="/en/js/jquery-2.0.3.min.js"></script>
+<script src="/en/js/jquery.imagesloaded.min.js"></script>
+<script src="/en/js/gallery.js"></script>
+<script src="/en/js/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/en/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/en/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="Back to Top"><img src="/en/img/scrollup.png"/></a>
+	</div>
+	<script src="/en/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+      </body>
+     </html>
+     
+

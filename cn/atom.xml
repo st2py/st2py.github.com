@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[St2Py]]></title>
+  <subtitle><![CDATA[网络安全专家]]></subtitle>
+  <link href="/cn/atom.xml" rel="self"/>
+  <link href="http://blog.st2py.com/"/>
+  <updated>2015-11-24T05:09:18.345Z</updated>
+  <id>http://blog.st2py.com/</id>
+  
+  <author>
+    <name><![CDATA[St2Py]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[欢迎访问 St2Py]]></title>
+    <link href="http://blog.st2py.com/2015/11/24/welcome-to-st2py/"/>
+    <id>http://blog.st2py.com/2015/11/24/welcome-to-st2py/</id>
+    <published>2015-11-24T05:09:18.345Z</published>
+    <updated>2015-11-24T05:09:18.345Z</updated>
+    <content type="html"><![CDATA[<p>欢迎访问<strong>St2Py</strong>！<strong>St2Py</strong>是专注于网络安全方面的软件开发小组。当前，我们有两个主要项目： <a href="http://blog.st2py.com/cn/bitcrypt/"><strong>BitCrypt</strong></a> and <a href="http://blog.st2py.com/cn/secproxy/"><strong>SecProxy</strong></a>.</p>
+<h2 id="BitCrypt_项目">BitCrypt 项目</h2><p><strong>BitCrypt</strong> 是一款开源的军事级别的文件加解密软件。它易用安装和使用，支持 <strong>Linux</strong>， <strong>Windows</strong>， <strong>OSX</strong>， <strong>FreeBSD</strong> 四大主流操作系统。欢迎大家使用，提出建议。</p>
+<h2 id="SecProxy_项目">SecProxy 项目</h2><p><strong>SecProxy</strong> 是一款开源的安全代理软件，用于确保网络通信安全。它也使用了军事级别的加解密技术。欢迎大家使用，提出建议。</p>
+<h2 id="联系我们">联系我们</h2><p>欢迎任何感兴趣的朋友加入我们的研发小组，详情请移步 <a href="http://blog.st2py.com/cn/donation/">联系页面</a>.</p>
+<h2 id="项目捐款">项目捐款</h2><p>任何捐款事务，详情请移步 <a href="http://blog.st2py.com/cn/donation/">捐款页面</a>.</p>
+<h2 id="English_Site">English Site</h2><p>For English Site， please go to <a href="http://blog.st2py.com/en/">http://blog.st2py.com/en/</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>欢迎访问<strong>St2Py</strong>！<strong>St2Py</strong>是专注于网络安全方面的软件开发小组。当前，我们有两个主要项目： <a href="http://blog.st2py.com/cn/bitcrypt/"><strong>Bit]]>
+    </summary>
+    
+      <category term="blog" scheme="http://blog.st2py.com/tags/blog/"/>
+    
+      <category term="st2py" scheme="http://blog.st2py.com/tags/st2py/"/>
+    
+      <category term="welcome" scheme="http://blog.st2py.com/tags/welcome/"/>
+    
+      <category term="blog" scheme="http://blog.st2py.com/categories/blog/"/>
+    
+  </entry>
+  
+</feed>
