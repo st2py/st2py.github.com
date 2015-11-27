@@ -2,38 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://st2py.com/bitcrypt/index.html</loc>
-    <lastmod>2015-11-24T07:39:44.881Z</lastmod>
+    <loc>http://st2py.com/404.html</loc>
+    <lastmod>2015-11-27T04:45:42.948Z</lastmod>
   </url>
   
   <url>
     <loc>http://st2py.com/2015/11/11/welcome-to-st2py/</loc>
-    <lastmod>2015-11-24T05:47:50.389Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://st2py.com/secproxy/index.html</loc>
-    <lastmod>2015-11-24T04:28:39.001Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://st2py.com/donation/index.html</loc>
-    <lastmod>2015-11-23T10:29:32.359Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://st2py.com/404.html</loc>
-    <lastmod>2015-11-09T07:02:02.000Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://st2py.com/categories/index.html</loc>
-    <lastmod>2015-11-09T05:14:26.000Z</lastmod>
+    <lastmod>2015-11-27T04:45:42.940Z</lastmod>
   </url>
   
   <url>
     <loc>http://st2py.com/tags/index.html</loc>
-    <lastmod>2015-11-09T05:13:42.000Z</lastmod>
+    <lastmod>2015-11-27T04:45:42.832Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://st2py.com/seciptun/index.html</loc>
+    <lastmod>2015-11-27T04:45:42.700Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://st2py.com/donation/index.html</loc>
+    <lastmod>2015-11-27T04:45:42.624Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://st2py.com/categories/index.html</loc>
+    <lastmod>2015-11-27T04:45:42.436Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://st2py.com/bitcrypt/index.html</loc>
+    <lastmod>2015-11-27T04:45:42.436Z</lastmod>
   </url>
   
 </urlset>
