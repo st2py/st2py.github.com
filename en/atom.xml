@@ -3,9 +3,9 @@
   <title><![CDATA[St2Py]]></title>
   <subtitle><![CDATA[Network Security Experts]]></subtitle>
   <link href="/en/atom.xml" rel="self"/>
-  <link href="https://st2py.com/"/>
+  <link href="http://st2py.com/"/>
   <updated>2015-11-24T05:47:50.389Z</updated>
-  <id>https://st2py.com/</id>
+  <id>http://st2py.com/</id>
   
   <author>
     <name><![CDATA[St2Py]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[Welcome to St2Py]]></title>
-    <link href="https://st2py.com/2015/11/11/welcome-to-st2py/"/>
-    <id>https://st2py.com/2015/11/11/welcome-to-st2py/</id>
+    <link href="http://st2py.com/2015/11/11/welcome-to-st2py/"/>
+    <id>http://st2py.com/2015/11/11/welcome-to-st2py/</id>
     <published>2015-11-10T16:00:00.000Z</published>
     <updated>2015-11-24T05:47:50.389Z</updated>
     <content type="html"><![CDATA[<p>Welcome to St2Py! St2Py is a team that focus on Network Security. Now, we have two main projects, <a href="http://blog.st2py.com/en/bitcrypt/" target="_blank" rel="external"><strong>BitCrypt</strong></a> and <a href="http://blog.st2py.com/en/secproxy/" target="_blank" rel="external"><strong>SecProxy</strong></a>.</p>
@@ -31,13 +31,13 @@
     <![CDATA[<p>Welcome to St2Py! St2Py is a team that focus on Network Security. Now, we have two main projects, <a href="http://blog.st2py.com/en/bitcr]]>
     </summary>
     
-      <category term="blog" scheme="https://st2py.com/tags/blog/"/>
+      <category term="blog" scheme="http://st2py.com/tags/blog/"/>
     
-      <category term="st2py" scheme="https://st2py.com/tags/st2py/"/>
+      <category term="st2py" scheme="http://st2py.com/tags/st2py/"/>
     
-      <category term="welcome" scheme="https://st2py.com/tags/welcome/"/>
+      <category term="welcome" scheme="http://st2py.com/tags/welcome/"/>
     
-      <category term="blog" scheme="https://st2py.com/categories/blog/"/>
+      <category term="blog" scheme="http://st2py.com/categories/blog/"/>
     
   </entry>
   
