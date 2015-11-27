@@ -4,7 +4,7 @@
   <subtitle><![CDATA[网络安全专家]]></subtitle>
   <link href="/cn/atom.xml" rel="self"/>
   <link href="http://st2py.com/"/>
-  <updated>2015-11-27T04:46:03.284Z</updated>
+  <updated>2015-11-27T06:08:37.376Z</updated>
   <id>http://st2py.com/</id>
   
   <author>
@@ -19,13 +19,13 @@
     <link href="http://st2py.com/2015/11/11/welcome-to-st2py/"/>
     <id>http://st2py.com/2015/11/11/welcome-to-st2py/</id>
     <published>2015-11-10T16:00:00.000Z</published>
-    <updated>2015-11-27T04:46:03.284Z</updated>
+    <updated>2015-11-27T06:08:37.376Z</updated>
     <content type="html"><![CDATA[<p>欢迎访问<strong>St2Py</strong>！<strong>St2Py</strong>是专注于网络安全方面的软件开发小组。当前，我们有两个主要项目： <a href="http://st2py.com/cn/bitcrypt/"><strong>BitCrypt</strong></a> and <a href="http://st2py.com/cn/seciptun/"><strong>SecIptun</strong></a>.</p>
 <h2 id="BitCrypt_项目">BitCrypt 项目</h2><p><strong>BitCrypt</strong> 是一款开源的军事级别的文件加解密软件。它易用安装和使用，支持 <strong>Linux</strong>， <strong>Windows</strong>， <strong>OSX</strong>， <strong>FreeBSD</strong> 四大主流操作系统。欢迎大家使用，提出建议。</p>
 <h2 id="SecIptun_项目">SecIptun 项目</h2><p><strong>SecIptun</strong> 是一款开源的安全隧道软件，用于确保网络通信安全。它也使用了军事级别的加解密技术。欢迎大家使用，提出建议。</p>
 <h2 id="联系我们">联系我们</h2><p>欢迎任何感兴趣的朋友加入我们的研发小组，详情请移步 <a href="http://st2py.com/cn/donation/">联系页面</a>.</p>
 <h2 id="项目捐款">项目捐款</h2><p>任何捐款事务，详情请移步 <a href="http://st2py.com/cn/donation/">捐款页面</a>.</p>
-<h2 id="English_Site">English Site</h2><p>For English Site， please go to <a href="http://st2py.com/en/">http://st2py.com/en/</a></p>
+<h2 id="English_Site">English Site</h2><p>For English Site, please go to <a href="http://st2py.com/en/">http://st2py.com/en/</a></p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>欢迎访问<strong>St2Py</strong>！<strong>St2Py</strong>是专注于网络安全方面的软件开发小组。当前，我们有两个主要项目： <a href="http://st2py.com/cn/bitcrypt/"><strong>BitCrypt]]>
