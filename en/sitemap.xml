@@ -2,13 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://st2py.com/2015/11/11/welcome-to-st2py/</loc>
-    <lastmod>2015-11-30T03:17:45.735Z</lastmod>
+    <loc>http://st2py.com/tunsecur/index.html</loc>
+    <lastmod>2015-12-08T10:59:15.771Z</lastmod>
   </url>
   
   <url>
-    <loc>http://st2py.com/tunsecur/index.html</loc>
-    <lastmod>2015-11-30T03:16:44.131Z</lastmod>
+    <loc>http://st2py.com/bitcrypt/index.html</loc>
+    <lastmod>2015-12-08T10:53:37.598Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://st2py.com/2015/11/11/welcome-to-st2py/</loc>
+    <lastmod>2015-11-30T03:17:45.735Z</lastmod>
   </url>
   
   <url>
@@ -28,11 +33,6 @@
   
   <url>
     <loc>http://st2py.com/categories/index.html</loc>
-    <lastmod>2015-11-27T04:45:42.436Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://st2py.com/bitcrypt/index.html</loc>
     <lastmod>2015-11-27T04:45:42.436Z</lastmod>
   </url>
   

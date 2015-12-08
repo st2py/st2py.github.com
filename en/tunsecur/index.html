@@ -12,16 +12,23 @@
     
 
     
-    <meta name="description" content="TunSecur means Tunnel Security, it is an open source secure tunnel software, consists of client and server, supports TCP and UDP protocols, uses RSA + AES technologies to encrypt network communication">
+    <meta name="description" content="TunSecur means Tunnel Security, it is an open source secure tunnel software, consists of client and server, has the following features:
+
+Released under The MIT License, fully open source and completel">
 <meta property="og:type" content="website">
 <meta property="og:title" content="TunSecur Project">
 <meta property="og:url" content="http://st2py.com/tunsecur/index.html">
 <meta property="og:site_name" content="St2Py">
-<meta property="og:description" content="TunSecur means Tunnel Security, it is an open source secure tunnel software, consists of client and server, supports TCP and UDP protocols, uses RSA + AES technologies to encrypt network communication">
-<meta property="og:updated_time" content="2015-11-30T03:16:44.131Z">
+<meta property="og:description" content="TunSecur means Tunnel Security, it is an open source secure tunnel software, consists of client and server, has the following features:
+
+Released under The MIT License, fully open source and completel">
+<meta property="og:image" content="http://st2py.com/pic01.png">
+<meta property="og:updated_time" content="2015-12-08T10:59:15.771Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="TunSecur Project">
-<meta name="twitter:description" content="TunSecur means Tunnel Security, it is an open source secure tunnel software, consists of client and server, supports TCP and UDP protocols, uses RSA + AES technologies to encrypt network communication">
+<meta name="twitter:description" content="TunSecur means Tunnel Security, it is an open source secure tunnel software, consists of client and server, has the following features:
+
+Released under The MIT License, fully open source and completel">
 
     
     <link rel="alternative" href="/atom.xml" title="St2Py" type="application/atom+xml">
@@ -100,7 +107,114 @@
 
 	<div class="article-content">
 		
-		<p><strong>TunSecur</strong> means Tunnel Security, it is an open source secure tunnel software, consists of client and server, supports TCP and UDP protocols, uses RSA + AES technologies to encrypt network communication, ensures network security. At present, the project is under heavily developed, stay tuned…</p>
+		<p><strong>TunSecur</strong> means Tunnel Security, it is an open source secure tunnel software, consists of client and server, has the following features:</p>
+<ul>
+<li>Released under The <strong>MIT</strong> License, fully open source and completely free</li>
+<li>Developed by <strong>Golang</strong>, safe, efficient, easy to deploy</li>
+<li>Support both <strong>password</strong> and <strong>RSA</strong> authentication</li>
+<li>Support <strong>RSA</strong> 1024, 2048, 4096 key length</li>
+<li>Support <strong>AES</strong> 128, 192, 256 key length</li>
+<li>Support <strong>CFB</strong>, <strong>CTR</strong>, <strong>OFB</strong> iteration mode</li>
+<li>Support both <strong>TCP</strong> and <strong>UDP</strong> protocols</li>
+<li>Support <strong>Linux</strong>, <strong>Windows</strong>, <strong>OSX</strong>, <strong>FreeBSD</strong> four main operating systems</li>
+</ul>
+<h2 id="Scenario">Scenario</h2><p><strong>TunSecur</strong> can be used for any scenario where secure network communication is needed, such as:</p>
+<ul>
+<li>secure DNS Proxy</li>
+<li>secure SSH Proxy</li>
+<li>secure VPN Proxy</li>
+<li>secure Web Proxy</li>
+</ul>
+<h2 id="How_to_install">How to install</h2><p><strong>TunSecur</strong> is developed by golang,make sure golang is installed before install TunSecur. Details refer to <a href="https://golang.org/doc/install" target="_blank" rel="external">Install the Go tools</a></p>
+<h3 id="Local_install">Local install</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">go get -u github.com/st2py/tunsecur</span><br></pre></td></tr></table></figure>
+<h3 id="Cross-platform_compiling">Cross-platform compiling</h3><p>The Golang has powerful cross-platform compiling ability:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/st2py/tunsecur.git</span><br><span class="line"><span class="built_in">cd</span> tunsecur</span><br><span class="line"></span><br><span class="line">OS=<span class="string">"linux darwin freebsd windows"</span></span><br><span class="line">ARCH=<span class="string">"386 amd64"</span></span><br><span class="line"><span class="keyword">for</span> GOOS <span class="keyword">in</span> <span class="variable">$OS</span></span><br><span class="line"><span class="keyword">do</span></span><br><span class="line">    <span class="keyword">for</span> GOARCH <span class="keyword">in</span> <span class="variable">$ARCH</span></span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">        <span class="built_in">echo</span> Building tunsecur <span class="keyword">for</span> <span class="variable">$GOOS</span> <span class="variable">$GOARCH</span></span><br><span class="line">        go build -o <span class="variable">$GOOS</span>-<span class="variable">$GOARCH</span>-tunsecur *.go</span><br><span class="line">        </span><br><span class="line">    <span class="keyword">done</span></span><br><span class="line"><span class="keyword">done</span></span><br><span class="line"></span><br><span class="line">GOOS=linux GOARCH=arm</span><br><span class="line"><span class="built_in">echo</span> Building tunsecur <span class="keyword">for</span> <span class="variable">$GOOS</span> <span class="variable">$GOARCH</span></span><br><span class="line">go build -o <span class="variable">$GOOS</span>-<span class="variable">$GOARCH</span>-tunsecur *.go</span><br></pre></td></tr></table></figure></p>
+<h2 id="Simple_tutorial">Simple tutorial</h2><p>The <strong>TunSecur</strong> network communication involves four endpoints, they are user point, client point, server point and dest point:</p>
+<ul>
+<li>The <strong>user point</strong> is the real network communication source, such as web browser, dns client etc.</li>
+<li>The <strong>client point</strong> is the tunnel client, used to encrypt data from user point to server point.</li>
+<li>The <strong>server point</strong> is the tunnel server, used to decrypt data from client point to dest point.</li>
+<li>The <strong>dest point</strong> is the real network communication destination, such as web site, dns server etc.</li>
+</ul>
+<p>The whole framework is as follows:</p>
+<p><img src="pic01.png" alt=""></p>
+<h3 id="Command_help">Command help</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tunsecur -h</span><br></pre></td></tr></table></figure>
+<h3 id="Generate_RSA_key_pair">Generate RSA key pair</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># -gen gen RSA key -bit key length, only valid: 1024, 2048, 4096 #</span></span><br><span class="line">tunsecur -gen -bit <span class="number">2048</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># -dir custom directory for storing RSA key files #</span></span><br><span class="line">tunsecur -gen -bit <span class="number">2048</span> -dir some/directory</span><br></pre></td></tr></table></figure>
+<p><strong>TunSecur</strong> will generate public.pem and private.pem files. Public key is in public.pem file, used for tunnel client at RSA mode; private key is in private.pem file, used for tunnel server at RSA mode.</p>
+<p><strong>Note: Please backup the key files, authentication will be failed at RSA mode if the key files are lost!</strong></p>
+<h3 id="Tunnel_Parameters">Tunnel Parameters</h3><p><strong>-ts</strong> Set tunnel server mode<br><strong>-tc</strong> Set tunnel client mode</p>
+<p><strong>-tcp</strong> Set TCP tunnel<br><strong>-udp</strong> Set UDP tunnel</p>
+<p><strong>-lp</strong> Set listen Host:Port<br><strong>-remote</strong> Set forward Host:Port</p>
+<p><strong>-passwd</strong> Set password auth mode </p>
+<p><strong>-pub</strong> Set RSA auth mode, and RSA public file for tunnel client<br><strong>-priv</strong> Set RSA auth mode, and RSA private file for tunnel server</p>
+<p><strong>-aes</strong> Set AES iteration mode, only valid: ctr, cfb, ofb<br><strong>-len</strong> Set AES key length，only valid: 16, 24, 32</p>
+<p><strong>-log</strong> Set log bits, default is error bit, set to <strong>7</strong> to open all bit</p>
+<h3 id="TCP_Tunnel">TCP Tunnel</h3><p><strong>Server:</strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tunsecur -ts -tcp -passwd <span class="built_in">test</span>123 -remote <span class="number">8.8</span>.<span class="number">8.8</span>:<span class="number">53</span> -lp <span class="number">0.0</span>.<span class="number">0.0</span>:<span class="number">12345</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>Client:</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tunsecur -tc -tcp -passwd <span class="built_in">test</span>123 -remote <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">12345</span> -lp <span class="number">0.0</span>.<span class="number">0.0</span>:<span class="number">53</span></span><br></pre></td></tr></table></figure>
+<h3 id="UDP_Tunnel">UDP Tunnel</h3><p><strong>Server:</strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tunsecur -ts -udp -passwd <span class="built_in">test</span>123 -remote <span class="number">8.8</span>.<span class="number">8.8</span>:<span class="number">53</span> -lp <span class="number">0.0</span>.<span class="number">0.0</span>:<span class="number">12345</span></span><br></pre></td></tr></table></figure></p>
+<p><strong>Client:</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tunsecur -tc -udp -passwd <span class="built_in">test</span>123 -remote <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">12345</span> -lp <span class="number">0.0</span>.<span class="number">0.0</span>:<span class="number">53</span></span><br></pre></td></tr></table></figure>
+<h3 id="Password_Auth_Mode">Password Auth Mode</h3><p><strong>Server:</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tunsecur -ts -tcp -passwd <span class="built_in">test</span>123 -remote <span class="number">8.8</span>.<span class="number">8.8</span>:<span class="number">53</span> -lp <span class="number">0.0</span>.<span class="number">0.0</span>:<span class="number">12345</span></span><br></pre></td></tr></table></figure>
+<p><strong>Client:</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tunsecur -tc -tcp -passwd <span class="built_in">test</span>123 -remote <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">12345</span> -lp <span class="number">0.0</span>.<span class="number">0.0</span>:<span class="number">53</span></span><br></pre></td></tr></table></figure>
+<h3 id="RSA_Auth_Mode">RSA Auth Mode</h3><p>First, make sure gen RSA key pair files by using command: tunsecur -gen</p>
+<p><strong>Server:</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tunsecur -ts -tcp -priv private.pem -remote <span class="number">8.8</span>.<span class="number">8.8</span>:<span class="number">53</span> -lp <span class="number">0.0</span>.<span class="number">0.0</span>:<span class="number">12345</span></span><br></pre></td></tr></table></figure>
+<p><strong>Client:</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tunsecur -tc -tcp -pub public.pem -remote <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">12345</span> -lp <span class="number">0.0</span>.<span class="number">0.0</span>:<span class="number">53</span></span><br></pre></td></tr></table></figure>
+<h2 id="How_it_works">How it works</h2><h3 id="Password_Auth_Mode-1">Password Auth Mode</h3><p>At Password Auth Mode，<strong>TunSecur</strong> client process as follows:</p>
+<ol>
+<li>Client and server config the same flag 0x23571719</li>
+<li>Client and server config the same password</li>
+<li>Client random gens AES key seed (tx_seed_key, rx_seed_key), and init vector seed (tx_seed_iv, rx_seed_iv)</li>
+<li>Client encrypts (flag, tx_seed_key, tx_seed_iv, rx_seed_key, rx_seed_iv) by using AES-CTR-128 and password</li>
+<li>Client sends encrypted (flag, tx_seed_key, tx_seed_iv, rx_seed_key, rx_seed_iv) to server</li>
+<li>Client gens AES (tx_key, tx_iv) from (tx_seed_key, tx_seed_iv), uses them to encrypt data to server</li>
+<li>Client gens AES (rx_key, rx_iv) from (rx_seed_key, rx_seed_iv), uses them to decrypt data from server</li>
+</ol>
+<p>At Password Auth Mode，<strong>TunSecur</strong> server process as follows:</p>
+<ol>
+<li>Server and client config the same flag 0x23571719</li>
+<li>Server and client config the same password</li>
+<li>Server receives encrypted (flag, tx_seed_key, tx_seed_iv, rx_seed_key, rx_seed_iv) from client</li>
+<li>Server decrypt (flag, tx_seed_key, tx_seed_iv, rx_seed_key, rx_seed_iv) by using AES-CTR-128 and password</li>
+<li>Server checks to see if decrypted flag is equal to the flag; if not authentication is failed, close connection</li>
+<li>Server gens AES (tx_key, tx_iv) from (tx_seed_key, tx_seed_iv), uses them to decrypt data from client</li>
+<li>Server gens AES (rx_key, rx_iv) from (rx_seed_key, rx_seed_iv), uses them to encrypt data to client</li>
+</ol>
+<h3 id="RSA_Auth_Mode-1">RSA Auth Mode</h3><p>At RSA Auth Mode，<strong>TunSecur</strong> client process as follows:</p>
+<ol>
+<li>Client and server config the same flag 0x23571719</li>
+<li>Client and server config the same password</li>
+<li>Client random gens AES key seed (tx_seed_key, rx_seed_key), and init vector seed (tx_seed_iv, rx_seed_iv)</li>
+<li>Client encrypts (flag, tx_seed_key, tx_seed_iv, rx_seed_key, rx_seed_iv) by using RSA and public key file</li>
+<li>Client sends encrypted (flag, tx_seed_key, tx_seed_iv, rx_seed_key, rx_seed_iv) to server</li>
+<li>Client gens AES (tx_key, tx_iv) from (tx_seed_key, tx_seed_iv), uses them to encrypt data to server</li>
+<li>Client gens AES (rx_key, rx_iv) from (rx_seed_key, rx_seed_iv), uses them to decrypt data from server</li>
+</ol>
+<p>At RSA Auth Mode，<strong>TunSecur</strong> server process as follows:</p>
+<ol>
+<li>Server and client config the same flag 0x23571719</li>
+<li>Server and client config the same password</li>
+<li>Server receives encrypted (flag, tx_seed_key, tx_seed_iv, rx_seed_key, rx_seed_iv) from client</li>
+<li>Server decrypt (flag, tx_seed_key, tx_seed_iv, rx_seed_key, rx_seed_iv) by using RSA and private key file</li>
+<li>Server checks to see if decrypted flag is equal to the flag; if not authentication is failed, close connection</li>
+<li>Server gens AES (tx_key, tx_iv) from (tx_seed_key, tx_seed_iv), uses them to decrypt data from client</li>
+<li>Server gens AES (rx_key, rx_iv) from (rx_seed_key, rx_seed_iv), uses them to encrypt data to client</li>
+</ol>
+<h2 id="Secure_DNS_Proxy_setup_tutorial">Secure DNS Proxy setup tutorial</h2><p>Recommended VPS: <a href="http://www.linode.com" target="_blank" rel="external">Linode</a> or <a href="http://www.digitalocean.com" target="_blank" rel="external">DigitalOcean</a> </p>
+<p>Set up Tunnel Server on Ubuntu VPS:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo tunsecur -ts -udp -passwd your_password -remote <span class="number">8.8</span>.<span class="number">8.8</span>:<span class="number">53</span> -lp <span class="number">0.0</span>.<span class="number">0.0</span>:<span class="number">15353</span> &amp;</span><br><span class="line">sudo netstat -antupl | grep tunsecur | grep <span class="number">15353</span></span><br></pre></td></tr></table></figure></p>
+<p>Set up Tunnel Client on personal PC:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tunsecur -tc -udp -passwd your_password -remote your_vps_ip:<span class="number">15353</span> -lp <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">53</span></span><br></pre></td></tr></table></figure></p>
+<p>Change DNS configuration of personal PC to <strong>127.0.0.1</strong>:<br>The steps is different for Windows, Linux, Mac OSX. Search the methods by yourself.</p>
+<h2 id="Secure_Web_Proxy_setup_tutorial">Secure Web Proxy setup tutorial</h2><p>Recommended VPS: <a href="http://www.linode.com" target="_blank" rel="external">Linode</a> or <a href="http://www.digitalocean.com" target="_blank" rel="external">DigitalOcean</a> </p>
+<p>Set up Tunnel Server on Ubuntu VPS:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install polipo -y</span><br><span class="line">sudo vim /etc/polipo/config</span><br></pre></td></tr></table></figure></p>
+<p>/etc/polipo/config as follows:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># This file only needs to list configuration variables that deviate</span></span><br><span class="line"><span class="comment"># from the default values.  See /usr/share/doc/polipo/examples/config.sample</span></span><br><span class="line"><span class="comment"># and "polipo -v" for variables you can tweak and further information.</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">log</span>Syslog = <span class="literal">true</span></span><br><span class="line"><span class="built_in">log</span>File = /var/<span class="built_in">log</span>/polipo/polipo.log</span><br><span class="line">proxyAddress = <span class="number">127.0</span>.<span class="number">0.1</span></span><br><span class="line">proxyPort = <span class="number">18123</span></span><br><span class="line">maxAge = <span class="number">7</span>d</span><br><span class="line">maxExpiresAge = <span class="number">9</span>d</span><br><span class="line">dnsNameServer = <span class="number">8.8</span>.<span class="number">8.8</span></span><br><span class="line">daemonise = <span class="literal">true</span></span><br><span class="line"><span class="built_in">disable</span>LocalInterface = <span class="literal">true</span></span><br><span class="line">allowedPorts = <span class="number">80</span>,<span class="number">443</span></span><br><span class="line">tunnelAllowedPorts = <span class="number">80</span>,<span class="number">443</span></span><br></pre></td></tr></table></figure></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo polipo</span><br><span class="line">sudo netstat -antupl | grep polipo | grep <span class="number">18123</span></span><br><span class="line">sudo tunsecur -ts -tcp -passwd your_password -remote <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">18123</span> -lp <span class="number">0.0</span>.<span class="number">0.0</span>:<span class="number">18080</span> &amp;</span><br><span class="line">sudo netstat -antupl | grep tunsecur | grep <span class="number">18080</span></span><br></pre></td></tr></table></figure>
+<p>Set up Tunnel Client on personal PC:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tunsecur -tc -tcp -passwd your_password -remote your_vps_ip:<span class="number">18080</span> -lp <span class="number">127.0</span>.<span class="number">0.1</span>:<span class="number">18080</span></span><br></pre></td></tr></table></figure></p>
+<p>Config web proxy on personal PC to <strong>127.0.0.1:18080</strong>:<br>The steps is different for Windows, Linux, Mac OSX. Search the methods by yourself.</p>
+<h2 id="Donation">Donation</h2><p>Your support is the power for developing the software better and better. For donation details, please refer to <a href="http://st2py.com/en/donation/">Donation Page</a>.</p>
+<h2 id="Project_License">Project License</h2><p>The MIT License (MIT)<br>Copyright (c) 2015 St2Py</p>
   
 	</div>
 		<footer class="article-footer clearfix">
